@@ -1,19 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 :root {
   color-scheme: light;
-  font-family: "IBM Plex Sans", sans-serif;
-  --bg: #f4efe7;
-  --bg-deep: #20332d;
-  --panel: rgba(255, 250, 241, 0.78);
-  --panel-strong: #fffaf0;
-  --line: rgba(32, 51, 45, 0.14);
-  --text: #1b2824;
-  --muted: #5f736b;
-  --accent: #bc5f3b;
-  --accent-soft: #f4cdb8;
-  --success: #2d8b57;
-  --shadow: 0 18px 42px rgba(50, 39, 18, 0.12);
+  font-family: Inter, system-ui, sans-serif;
+  --bg: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-deep: #1f3a5f;
+  --panel: #ffffff;
+  --panel-strong: #f8fafc;
+  --line: #e5e7eb;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #1f3a5f;
+  --accent-soft: #e8eef6;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --error: #dc2626;
+  --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
 * {
@@ -28,9 +31,7 @@ body,
 }
 
 body {
-  background:
-    radial-gradient(circle at top right, rgba(188, 95, 59, 0.2), transparent 24%),
-    linear-gradient(160deg, #f7f1e7 0%, #efe5d4 46%, #dce7df 100%);
+  background: var(--bg-secondary);
   color: var(--text);
 }
 
