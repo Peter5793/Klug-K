@@ -1,0 +1,1 @@
+"""Supplies domain app."""
