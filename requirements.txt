@@ -1,0 +1,25 @@
+# Core framework
+Django>=5.0,<6.0
+djangorestframework>=3.15
+
+# Environment & config
+python-dotenv>=1.0
+dj-database-url>=2.1
+
+# PostgreSQL / Supabase
+psycopg2-binary>=2.9
+
+# Auth & security
+django-cors-headers>=4.3
+django-filter>=24.2
+
+# API tooling
+drf-spectacular>=0.27.2
+
+# Utilities
+pytz
+requests
+
+# Optional but recommended
+gunicorn>=21.2
+whitenoise>=6.6
